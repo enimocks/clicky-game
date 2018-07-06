@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
+import CharCard from '.components/CharCard';
+import Navbar from './components/Navbar';
+import Wrapper from './components/Wrapper';
+import characters from './characters.json';
 
 class App extends Component {
   render() {
