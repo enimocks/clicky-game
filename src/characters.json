@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "amy.jpg"
+  },
+  {
+    "id": 2,
+    "image": "bender.jpg"
+  },
+  {
+    "id": 3,
+    "image": "fry.jpg"
+  },
+  {
+    "id": 4,
+    "image": "hermes.jpg"
+  },
+  {
+    "id": 5,
+    "image": "kif.jpg"
+  },
+  {
+    "id": 6,
+    "image": "leela.jpg"
+  },
+  {
+    "id": 7,
+    "image": "mom.jpg"
+  },
+  {
+    "id": 8,
+    "image": "nibbler.jpg"
+  },
+  {
+    "id": 9,
+    "image": "professor.jpg"
+  },
+  {
+    "id": 10,
+    "image": "scruffy.jpg"
+  },
+  {
+    "id": 11,
+    "image": "zapp.jpg"
+  },
+  {
+    "id": 12,
+    "image": "zoidberg.jpg"
+  }
+]
