@@ -1,13 +1,13 @@
 import React from 'react';
-import 'CharCard.css';
+import './CharCard.css';
 
-//pass each image into a card to get all 12
+// pass each image into a card to get all 12
 const CharCard = props => (
-  <div className="card" onClick={props.imageClick}>
-    <div className="img-container">
-      <img alt={props.image.replace(".jpg", "")} src={require("../../images/" + props.image)} />
+    <div className="card" onClick={() => props.handleClick(props.id)}>
+      <div className="img-container">
+        <img alt={props.image.replace(".jpg", "")} src={require("../../img/" + props.image)} />
+      </div>
     </div>
-  </div>
 );
 
 export default CharCard;
