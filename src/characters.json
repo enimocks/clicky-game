@@ -1,50 +1,62 @@
 [
   {
     "id": 1,
-    "image": "amy.jpg"
+    "image": "amy.jpg",
+    "clicked": false
   },
   {
     "id": 2,
-    "image": "bender.jpg"
+    "image": "bender.jpg",
+    "clicked": false
   },
   {
     "id": 3,
-    "image": "fry.jpg"
+    "image": "fry.jpg",
+    "clicked": false
   },
   {
     "id": 4,
-    "image": "hermes.jpg"
+    "image": "hermes.jpg",
+    "clicked": false
   },
   {
     "id": 5,
-    "image": "kif.jpg"
+    "image": "kif.jpg",
+    "clicked": false
   },
   {
     "id": 6,
-    "image": "leela.jpg"
+    "image": "leela.jpg",
+    "clicked": false
   },
   {
     "id": 7,
-    "image": "mom.jpg"
+    "image": "mom.jpg",
+    "clicked": false
   },
   {
     "id": 8,
-    "image": "nibbler.jpg"
+    "image": "nibbler.jpg",
+    "clicked": false
   },
   {
     "id": 9,
-    "image": "professor.jpg"
+    "image": "professor.jpg",
+    "clicked": false
   },
   {
     "id": 10,
-    "image": "scruffy.jpg"
+    "image": "scruffy.jpg",
+    "clicked": false
   },
   {
     "id": 11,
-    "image": "zapp.jpg"
+    "image": "zapp.jpg",
+    "clicked": false
   },
   {
     "id": 12,
-    "image": "zoidberg.jpg"
+    "image": "zoidberg.jpg",
+    "clicked": false
   }
 ]

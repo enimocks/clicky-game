@@ -3,6 +3,7 @@ import './App.css';
 import CharCard from './components/CharCard';
 import Navbar from './components/Navbar';
 import Wrapper from './components/Wrapper';
+import Title from './components/Title';
 import characters from './characters.json';
 
 class App extends Component {
@@ -18,13 +19,18 @@ class App extends Component {
     return (
       <Wrapper>
         <Navbar />
-        {this.state.characters.map(char => (
-        <CharCard 
-        id={char.id}
-        key={char.id}
-        image={char.image}
-        />
-      ))}
+          <Title />
+        <div className="container">
+          <div className="row">
+            {this.state.characters.map(char => (
+              <CharCard 
+              id={char.id}
+              key={char.id}
+              image={char.image}
+            />
+          ))}
+          </div>
+        </div>
       </Wrapper>
     );
   }
