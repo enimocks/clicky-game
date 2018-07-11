@@ -6,6 +6,15 @@ import Wrapper from './components/Wrapper';
 import Title from './components/Title';
 import characters from './characters.json';
 
+// shuffle the cards -- use after each card clicked
+function shuffleCards(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
 class App extends Component {
 
   state = {
