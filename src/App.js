@@ -59,7 +59,6 @@ class App extends Component {
         <Navbar
           score={this.state.score}
           bestScore={this.state.bestScore}
-          message={this.state.message}
         />
         <Title />
         <div className="container">
