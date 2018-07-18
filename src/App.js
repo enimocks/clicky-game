@@ -25,6 +25,7 @@ class App extends Component {
     return arr;
   }
 
+  // handle click and management of state
   handleClick = id => {
     const characters = this.state.characters.filter(leader => leader.id === id);
 
@@ -32,24 +33,19 @@ class App extends Component {
       characters[0].clicked = true;
       const newScore = this.state.score + 1;
       this.setState({ score: newScore });
-      // score not actually updated yet, so use newScore
 
       if (newScore >= this.state.bestScore) {
         this.setState({ bestScore: newScore });
       }
     } else {
-      // game over, so reset score and clicked
       this.setState({ score: 0 });
-      // make copy so not mutating state directly
       const resetArray = this.state.characters.slice();
       resetArray.forEach((leader) => {
         leader.clicked = false;
       });
       this.setState({characters: resetArray});
     }
-    // pass a copy so don't mutate state directly
     const charactersNew = this.shuffle(this.state.characters.slice());
-    // multiple setState calls in a handler are OK
     this.setState({characters: charactersNew});
   };
 
