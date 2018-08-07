@@ -58,7 +58,7 @@ class App extends Component {
         />
         <Title />
         <div className="container">
-          <div className="row">
+          <div className="row d-flex justify-content-center">
             {this.state.characters.map(char => (
               <CharCard 
               handleClick={this.handleClick}
